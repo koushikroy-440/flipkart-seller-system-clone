@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	background-color: #3278BF;
+}
+*{
+	box-sizing: border-box;
+}
+/*start scrollbar coding*/
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: black;
+}
+::-webkit-scrollbar-track{
+	background-color: #ccc;
+}
+::-webkit-scrollbar-thumb:hover{
+	background-color: #FF5829;
+}
+/*end scrollbar coding*/
+#webpage{
+	width: 100%;
+	height: 100%;
+}
+
+#webpage{
+	animation: fade 1s;
+}
+@keyframes fade{
+	0%{opacity: 0};
+	100%{opacity: 1};
+}
+header{
+	top: 0;
+	left: 0;
+	float: left;
+	position: fixed;
+}
+
+#brand-name{
+	border: 1px solid #3278BF;
+	float: left;
+	width: 70px;
+	margin-left: 20px;
+	margin-top: 20px;
+	}
+
+#brand-name h1{
+	font-size: 15px;
+	color:  #FF5829;;
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	cursor: pointer;
+}
+
+#seller-login{
+	width: 50%;
+	/*height: 600px;*/
+	float: left;
+}
+
+
+#brand-det li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+	padding: 5px;
+}
+
+#brand-det li i{
+	font-size: 50px;
+	color: white;
+}
+
+#brand-det p{
+	color: white;
+}
+
+#login-form{
+	width: 60%;
+	
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0px 0px 5px 3px grey;
+
+}
+
+
+/*seller account login form*/
+#inputemail,#inputmobile,#inputname,#inputpass{
+	width: 330px;
+	height: 38px;
+	padding: 5px;
+	color: #AAAAAA;
+}
+#inputemail,#inputmobile,#inputname,#inputpass:focus{
+	outline: none;
+}
+
+#signupbtn,#loginbtn{
+	width: 330px;
+	height: 38px;
+	background-color: #3278BF;
+	border: none;
+	color: white;
+	cursor: not-allowed;
+}
+
+#emailnotice,#mobilenotice,#passwordnotice{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 12px;
+	display: none;
+}
+
+#login-header{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+#email-login,#pass-login{
+	width: 330px;
+	height: 38px;
+	padding: 5px;
+	color: #AAAAAA;
+
+}
+
+#email-login,#pass-login:focus{
+	outline: none;
+}
+#loginfrm{
+	margin-left: 52px;
+}
+
+@media (max-width: 1024px){
+	#seller-login{
+		width: 100%;
+	}
+
+	#brand-det{
+		display: none;
+	}
+	#login-form{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0px 0px 5px 3px grey;
+	}
+
+	#loginfrm{
+	margin-left: 6%;
+	
+	}
+
+	#inputemail,#inputmobile,#inputname,#inputpass{
+	width: 90%;
+	height: 38px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	color: #AAAAAA;
+	}
+
+	#signupbtn,#loginbtn{
+	width: 90%;
+	height: 38px;
+	background-color: #3278BF;
+	border: none;
+	color: white;
+	cursor: not-allowed;
+	}
+	#email-login,#pass-login{
+	width: 90%;
+	height: 38px;
+	padding: 5px;
+	color: #AAAAAA;
+
+	}
+
+}

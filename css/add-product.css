@@ -1,0 +1,111 @@
+*{box-sizing: border-box;}
+
+#header-menu button{
+	width: 120px;
+	height: 50px;
+	border:2px solid green;
+	border-radius: 10px;
+	background-color: white;
+	cursor: pointer;
+}
+
+#header-menu button:focus{
+	outline: none;
+}
+
+.btn-active{
+	color: blue;
+}
+
+#Business-details,#Add-Products,#Products{
+	display: none;
+}
+
+#header-menu h1{
+	font-family: cursive;
+	color: yellow;
+}
+
+#seller-details{
+	width: 35%;
+	margin-left: 33%;
+	margin-right: 31%;
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 0.5px 2px 3px #ddd;
+}
+
+#seller-pic{
+	width: 120px;
+	height: 120px;
+	border:2px solid #4CBEBE;
+	border-radius: 50%;
+
+}
+
+#profile-pic-upload{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	opacity: 0;
+}
+#profile-pic-upload:focus{
+	outline: none;
+}
+
+#upload-icon{
+	position: absolute;
+	top: 40%;
+	left: 15%;
+}
+
+#seller-details-form{
+	margin-top: 20px;
+}
+
+#header-infor{
+	margin-left: 160px;
+	font-size: 15px;
+	padding: 0;
+	font-family: cursive;
+}
+
+
+#business-name,#pan-number,#business-type,#pincode{
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	height: 40px;
+	padding: 10px;
+	background-color:white;
+	border:1px solid #ccc;
+}
+#business-name,#pan-number,#business-type,#pincode:focus{
+	outline: none;
+}
+
+#address{
+	margin-left: 15%;
+	width: 70%;
+	height: 10%;
+}
+
+#submit-btn{
+	margin-right: 15%;
+	float: right;
+	width: 80px;
+	height: 35px;
+	border:2px solid blue;
+	background: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+#submit-btn:focus{
+	outline: none;
+}
+
+#submit-btn:hover{
+	letter-spacing: 2px;
+}
